@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "i": "^0.3.7",
+    "npm": "^9.1.2",
+    "octokit": "^2.0.10",
+    "octokit-plugin-create-pull-request": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node test-cli.js"
+  }
+}
