@@ -21,8 +21,7 @@ const deleteDir = (f = workspace_dir) => {
 
 deleteDir();
 // const { OctokitRest = Octokit } = require("@octokit/rest");
-// const token = "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";//jooeg
-const token = "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";//daimondjoel
+
 
 const exec_sync = (command) => {
   execSync(command, { stdio: "inherit", shell: true });
